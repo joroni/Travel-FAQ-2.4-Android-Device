@@ -511,7 +511,7 @@ appUI.populateCountryDetails = function(countryCode) {
 
 			//var imgPath = config.fileSystemRootFolder + '/' + config.localImageFolderPath + '/' + countryCode.toLowerCase() + ".png?" + Math.random();
 			
-			var imgPath = config.fileSystemRootFolder + '/' + config.localImageFolderPath2 + '/' + countryCode.toLowerCase() + ".png?" + Math.random();
+			var imgPath =  config.localImageFolderPath2 + '/' + countryCode.toLowerCase() + ".png?" + Math.random();
 		
 			//var iconPath =  config.localImageFolderPath2 + '/' + code.toLowerCase() + ".png?" + Math.random();
 			
