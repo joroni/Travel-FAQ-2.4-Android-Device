@@ -427,9 +427,9 @@ appUI.populateCountriesAll = function() {
 				//if (!localFileExists(iconPath) || localFileExists(iconPath)) {
 					
 			if (!localFileExists(iconPath)) {
-					//iconPath = config.defaultIconPath;
+					iconPath = config.defaultIconPath;
 					/* SIDE BAR'S ICON */
-					iconPath = iconPathStatic;
+					//iconPath = iconPathStatic;
 				}
 				icon.src = iconPath;			
 				icon.style.verticalAlign="middle";
