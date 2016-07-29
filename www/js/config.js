@@ -23,13 +23,11 @@ config.checkTabletMode = function() {
 }
 
 config.appTitle = "Travel FAQ";
-config.appInternalVersion = "2.4.0";
+config.appInternalVersion = "2.1.2";
 config.tabletMode = config.checkTabletMode();//config.getDeviceType();
 config.defaultCountryCode = 'CN';
-//config.updateAvailableMessage = 'New version of data is available for download.\n\nKindly sync with server to get the latest Travel FAQ data.';
+config.updateAvailableMessage = 'New version of data is available for download.\n\nKindly sync with server to get the latest Travel FAQ data.';
 
-config.updateAvailableMessage = 'New version of data is available for download.\n\nKindly tap the top right corner Gear then Update to get the latest Travel FAQ data.';
- 
 config.localDBVersionKey = "tfaq.data.version";
 config.localDBName = "TravelFAQData";
 config.localDBDisp = "TFAQ Offline Storage";
@@ -54,11 +52,9 @@ config.mapCoords2Key = '<latlng_2>';
 
 
 config.defaultIconPath = 'images/icons/default.png';
-//config.defaultIconPath = 'images/icons/flags';
 config.localImageFolderPath = 'flags';
-//config.localImageFolderPath = 'images/icons/flags';
-//config.localImageFolderPath = 'images/icons/flags'; /* HACK localized for sidebar */
 config.localImageFolderPath2 = 'images/icons/flags'; /* HACK localized for sidebar */
+//config.localImageFolderPath2 = 'images/icons/flags'; /* HACK localized for sidebar */
 config.fileSystemRootFolder = '';
 
 
@@ -73,8 +69,8 @@ config.detailLabels = [
 	{text:"Preferred Hotels",icon:"hotel.png",id:"prefhotel"},
 	{text:"Useful Info",icon:"info.png",id:"usefulinfo"}
 ];
-
-
+	
+	
 config.fixCountryFilter = false;
 config.locationCoarseTimeout = 15000;
 config.geoJSONCountriesFile = "countries.geojson";
