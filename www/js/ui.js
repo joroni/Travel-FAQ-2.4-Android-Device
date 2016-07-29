@@ -519,7 +519,7 @@ appUI.populateCountryDetails = function(countryCode) {
 			
 			
 			if (!localFileExists(imgPath)) {				
-				imgPath = config.defaultIconPath2;
+				imgPath = iconPath;
 				
 				//imgPath = config.defaultIconPath;
 				//alert(imgPath);
