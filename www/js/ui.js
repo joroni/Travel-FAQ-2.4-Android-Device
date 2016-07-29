@@ -424,7 +424,7 @@ appUI.populateCountriesAll = function() {
 				//var iconPath = config.fileSystemRootFolder + '/' + config.localImageFolderPath + '/' + code.toLowerCase() + ".png?" + Math.random();
 				var iconPath = config.localImageFolderPath + '/' + code.toLowerCase() + ".png?" + Math.random();		
 				//alert (iconPath);
-				var iconPathStatic =  config.localImageFolderPath + '/' + code.toLowerCase() + ".png?" + Math.random();				
+				var iconPathStatic =  config.localImageFolderPath2 + '/' + code.toLowerCase() + ".png?" + Math.random();				
 				//if (!localFileExists(iconPath) || localFileExists(iconPath)) {
 					
 			if (!localFileExists(iconPath)) {
@@ -511,13 +511,12 @@ appUI.populateCountryDetails = function(countryCode) {
 
 			var imgPath = config.fileSystemRootFolder + '/' + config.localImageFolderPath + '/' + countryCode.toLowerCase() + ".png?" + Math.random();
 			
-			var iconPath = config.localImageFolderPath + '/' + code.toLowerCase() + ".png?" + Math.random();		
-				
+		
 			//var iconPath =  config.localImageFolderPath2 + '/' + code.toLowerCase() + ".png?" + Math.random();
 			
 			//var imgPath = config.localImageFolderPath2 + '/' + countryCode.toLowerCase() + ".png?" + Math.random();
 			
-			//var imgPath2 = config.localImageFolderPath2 + '/' + countryCode.toLowerCase() + ".png?" + Math.random();
+			var imgPath2 = config.localImageFolderPath2 + '/' + countryCode.toLowerCase() + ".png?" + Math.random();
 			
 			
 			
@@ -525,7 +524,7 @@ appUI.populateCountryDetails = function(countryCode) {
 				//imgPath = config.defaultIconPath2;
 				
 				//imgPath = config.defaultIconPath;
-				imgPath = iconPath;
+				imgPath = config.defaultIconPath2;
 				//alert(imgPath);
 			} 
 			
