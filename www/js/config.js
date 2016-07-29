@@ -57,7 +57,7 @@ config.mapCoords2Key = '<latlng_2>';
 config.defaultIconPath = 'images/icons/default.png';
 config.localImageFolderPath = 'flags';
 
-config.defaultIconPath2 = 'images/icons/flags';
+//config.defaultIconPath2 = 'images/icons/flags';
 config.localImageFolderPath2 = 'images/icons/flags';
 //config.localImageFolderPath = 'images/icons/flags'; /* HACK localized for sidebar */
 //config.localImageFolderPath2 = 'images/icons/flags'; /* HACK localized for sidebar */
