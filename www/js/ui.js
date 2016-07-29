@@ -509,22 +509,23 @@ appUI.populateCountryDetails = function(countryCode) {
 			if (pf && pf=="Android") mapShowURI = "geo:0,0?q=" + config.mapCoords1Key;
 			if (pf && pf=="Android") mapDirURI = "https://maps.google.com/?q=" + config.mapCoords2Key + "+to+" + config.mapCoords1Key;
 
-			var imgPath = config.fileSystemRootFolder + '/' + config.localImageFolderPath + '/' + countryCode.toLowerCase() + ".png?" + Math.random();
+			//var imgPath = config.fileSystemRootFolder + '/' + config.localImageFolderPath + '/' + countryCode.toLowerCase() + ".png?" + Math.random();
 			
+			var imgPath = config.fileSystemRootFolder + '/' + config.localImageFolderPath2 + '/' + countryCode.toLowerCase() + ".png?" + Math.random();
 		
 			//var iconPath =  config.localImageFolderPath2 + '/' + code.toLowerCase() + ".png?" + Math.random();
 			
 			//var imgPath = config.localImageFolderPath2 + '/' + countryCode.toLowerCase() + ".png?" + Math.random();
 			
-			var imgPath2 = config.localImageFolderPath2 + '/' + countryCode.toLowerCase() + ".png?" + Math.random();
+			//var imgPath2 = config.localImageFolderPath2 + '/' + countryCode.toLowerCase() + ".png?" + Math.random();
 			
 			
 			
 			if (!localFileExists(imgPath)) {				
-				//imgPath = config.defaultIconPath2;
-				
+				imgPath = config.defaultIconPath;
+				//imgPath = iconPathStatic;
 				//imgPath = config.defaultIconPath;
-				imgPath = config.defaultIconPath2;
+				//imgPath = config.defaultIconPath2;
 				//alert(imgPath);
 			} 
 			
