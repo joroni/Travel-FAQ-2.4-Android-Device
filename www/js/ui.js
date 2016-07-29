@@ -511,6 +511,8 @@ appUI.populateCountryDetails = function(countryCode) {
 
 			var imgPath = config.fileSystemRootFolder + '/' + config.localImageFolderPath + '/' + countryCode.toLowerCase() + ".png?" + Math.random();
 			
+			var iconPath = config.localImageFolderPath + '/' + code.toLowerCase() + ".png?" + Math.random();		
+				
 			//var iconPath =  config.localImageFolderPath2 + '/' + code.toLowerCase() + ".png?" + Math.random();
 			
 			//var imgPath = config.localImageFolderPath2 + '/' + countryCode.toLowerCase() + ".png?" + Math.random();
@@ -522,7 +524,8 @@ appUI.populateCountryDetails = function(countryCode) {
 			if (!localFileExists(imgPath)) {				
 				//imgPath = config.defaultIconPath2;
 				
-				imgPath = config.defaultIconPath;
+				//imgPath = config.defaultIconPath;
+				imgPath = iconPath;
 				//alert(imgPath);
 			} 
 			
